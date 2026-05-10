@@ -1,0 +1,14 @@
+﻿{
+  "id": "2026-05-10-130000",
+  "generated_at": "2026-05-10T05:00:00.0000000Z",
+  "language": "en",
+  "pages": [
+    {
+      "slug": "rag-pipeline",
+      "title": "RAG Pipeline",
+      "file": "rag-pipeline.md",
+      "section": "AI",
+      "level": "Intermediate"
+    }
+  ]
+}

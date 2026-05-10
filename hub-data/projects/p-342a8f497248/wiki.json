@@ -1,0 +1,229 @@
+{
+  "id": "p-342a8f497248",
+  "title": "Scripts",
+  "summary": "Local zread wiki project",
+  "rootPath": "C:\\temp\\TarkovUnity\\UnityTarkov\\UnityTarkov\\ExportedProject\\Assets\\Scripts",
+  "versionId": "2026-05-09-222010",
+  "generatedAt": "2026-05-09T14:20:10.2759556Z",
+  "language": "zh",
+  "pageCount": 28,
+  "tags": [
+    "入门指南",
+    "核心系统架构",
+    "用户界面系统",
+    "网络与同步架构",
+    "战斗与物理系统",
+    "高级主题"
+  ],
+  "pages": [
+    {
+      "slug": "1-xiang-mu-gai-lan-yu-he-xin-jie-zhi",
+      "title": "项目概览与核心价值",
+      "file": "1-xiang-mu-gai-lan-yu-he-xin-jie-zhi.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "2-kuai-su-kai-shi-xiang-mu-huan-jing-da-jian-yu-yun-xing",
+      "title": "快速开始:项目环境搭建与运行",
+      "file": "2-kuai-su-kai-shi-xiang-mu-huan-jing-da-jian-yu-yun-xing.md",
+      "section": "入门指南",
+      "level": "Beginner"
+    },
+    {
+      "slug": "3-fan-bian-yi-dai-ma-zhong-gou-fang-fa-lun",
+      "title": "反编译代码重构方法论",
+      "file": "3-fan-bian-yi-dai-ma-zhong-gou-fang-fa-lun.md",
+      "section": "入门指南",
+      "group": "重构工作流程",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "4-ming-ming-gui-fan-yu-dai-ma-zu-zhi-yuan-ze",
+      "title": "命名规范与代码组织原则",
+      "file": "4-ming-ming-gui-fan-yu-dai-ma-zu-zhi-yuan-ze.md",
+      "section": "入门指南",
+      "group": "重构工作流程",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "5-jian-jin-shi-zhong-gou-ce-lue-yu-shi-jian",
+      "title": "渐进式重构策略与实践",
+      "file": "5-jian-jin-shi-zhong-gou-ce-lue-yu-shi-jian.md",
+      "section": "入门指南",
+      "group": "重构工作流程",
+      "level": "Advanced"
+    },
+    {
+      "slug": "6-ying-yong-cheng-xu-sheng-ming-zhou-qi-guan-li",
+      "title": "应用程序生命周期管理",
+      "file": "6-ying-yong-cheng-xu-sheng-ming-zhou-qi-guan-li.md",
+      "section": "核心系统架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "7-you-xi-shi-jie-he-xin-guan-li-qi",
+      "title": "游戏世界核心管理器",
+      "file": "7-you-xi-shi-jie-he-xin-guan-li-qi.md",
+      "section": "核心系统架构",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "8-wan-jia-he-xin-lei-jia-gou",
+      "title": "玩家核心类架构",
+      "file": "8-wan-jia-he-xin-lei-jia-gou.md",
+      "section": "核心系统架构",
+      "group": "玩家系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "9-yi-dong-xi-tong-yu-wu-li-ji-suan",
+      "title": "移动系统与物理计算",
+      "file": "9-yi-dong-xi-tong-yu-wu-li-ji-suan.md",
+      "section": "核心系统架构",
+      "group": "玩家系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "10-shou-bu-kong-zhi-qi-yu-wu-qi-xi-tong-ji-cheng",
+      "title": "手部控制器与武器系统集成",
+      "file": "10-shou-bu-kong-zhi-qi-yu-wu-qi-xi-tong-ji-cheng.md",
+      "section": "核心系统架构",
+      "group": "玩家系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "11-wu-pin-ji-lei-yu-zu-jian-xi-tong",
+      "title": "物品基类与组件系统",
+      "file": "11-wu-pin-ji-lei-yu-zu-jian-xi-tong.md",
+      "section": "核心系统架构",
+      "group": "物品与背包系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "12-bei-bao-rong-qi-yu-wang-ge-bu-ju",
+      "title": "背包容器与网格布局",
+      "file": "12-bei-bao-rong-qi-yu-wang-ge-bu-ju.md",
+      "section": "核心系统架构",
+      "group": "物品与背包系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "13-wu-pin-cao-zuo-yu-jiao-yi-luo-ji",
+      "title": "物品操作与交易逻辑",
+      "file": "13-wu-pin-cao-zuo-yu-jiao-yi-luo-ji.md",
+      "section": "核心系统架构",
+      "group": "物品与背包系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "14-uikuang-jia-ji-chu-jia-gou",
+      "title": "UI框架基础架构",
+      "file": "14-uikuang-jia-ji-chu-jia-gou.md",
+      "section": "用户界面系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "15-tuo-fang-xi-tong-shi-xian",
+      "title": "拖放系统实现",
+      "file": "15-tuo-fang-xi-tong-shi-xian.md",
+      "section": "用户界面系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "16-bei-bao-jie-mian-yu-wu-pin-shi-tu",
+      "title": "背包界面与物品视图",
+      "file": "16-bei-bao-jie-mian-yu-wu-pin-shi-tu.md",
+      "section": "用户界面系统",
+      "group": "核心UI模块",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "17-jiao-yi-xi-tong-ui",
+      "title": "交易系统UI",
+      "file": "17-jiao-yi-xi-tong-ui.md",
+      "section": "用户界面系统",
+      "group": "核心UI模块",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "18-shi-chang-yu-fen-lei-liu-lan-mian-ban",
+      "title": "市场与分类浏览面板",
+      "file": "18-shi-chang-yu-fen-lei-liu-lan-mian-ban.md",
+      "section": "用户界面系统",
+      "group": "核心UI模块",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "19-wang-luo-you-xi-hui-hua-guan-li",
+      "title": "网络游戏会话管理",
+      "file": "19-wang-luo-you-xi-hui-hua-guan-li.md",
+      "section": "网络与同步架构",
+      "level": "Advanced"
+    },
+    {
+      "slug": "20-ke-hu-duan-fu-wu-qi-shu-ju-tong-bu",
+      "title": "客户端-服务器数据同步",
+      "file": "20-ke-hu-duan-fu-wu-qi-shu-ju-tong-bu.md",
+      "section": "网络与同步架构",
+      "level": "Advanced"
+    },
+    {
+      "slug": "21-zhuang-tai-yu-ce-yu-cha-zhi-suan-fa",
+      "title": "状态预测与插值算法",
+      "file": "21-zhuang-tai-yu-ce-yu-cha-zhi-suan-fa.md",
+      "section": "网络与同步架构",
+      "level": "Advanced"
+    },
+    {
+      "slug": "22-dan-dao-ji-suan-yu-shang-hai-xi-tong",
+      "title": "弹道计算与伤害系统",
+      "file": "22-dan-dao-ji-suan-yu-shang-hai-xi-tong.md",
+      "section": "战斗与物理系统",
+      "level": "Advanced"
+    },
+    {
+      "slug": "23-jian-kang-xi-tong-yu-zhuang-tai-xiao-guo",
+      "title": "健康系统与状态效果",
+      "file": "23-jian-kang-xi-tong-yu-zhuang-tai-xiao-guo.md",
+      "section": "战斗与物理系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "24-aiji-qi-ren-xing-wei-xi-tong",
+      "title": "AI机器人行为系统",
+      "file": "24-aiji-qi-ren-xing-wei-xi-tong.md",
+      "section": "战斗与物理系统",
+      "level": "Intermediate"
+    },
+    {
+      "slug": "25-xing-neng-you-hua-yu-zi-yuan-guan-li",
+      "title": "性能优化与资源管理",
+      "file": "25-xing-neng-you-hua-yu-zi-yuan-guan-li.md",
+      "section": "高级主题",
+      "level": "Advanced"
+    },
+    {
+      "slug": "26-yin-pin-xi-tong-yu-kong-jian-hua",
+      "title": "音频系统与空间化",
+      "file": "26-yin-pin-xi-tong-yu-kong-jian-hua.md",
+      "section": "高级主题",
+      "level": "Advanced"
+    },
+    {
+      "slug": "27-xuan-ran-te-xiao-yu-hou-chu-li",
+      "title": "渲染特效与后处理",
+      "file": "27-xuan-ran-te-xiao-yu-hou-chu-li.md",
+      "section": "高级主题",
+      "level": "Advanced"
+    },
+    {
+      "slug": "28-ren-wu-xi-tong-yu-cheng-jiu-xi-tong",
+      "title": "任务系统与成就系统",
+      "file": "28-ren-wu-xi-tong-yu-cheng-jiu-xi-tong.md",
+      "section": "高级主题",
+      "level": "Advanced"
+    }
+  ],
+  "dataBase": "/hub-data/projects/p-342a8f497248"
+}

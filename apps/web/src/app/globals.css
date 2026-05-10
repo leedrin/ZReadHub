@@ -1,0 +1,16 @@
+@import '../lib/themeTokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  color: var(--foreground);
+  background: radial-gradient(circle at top right, #e8f3ff 0%, var(--background) 50%);
+  font-family: Geist, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.prose {
+  max-width: none;
+}

@@ -1,0 +1,235 @@
+{
+  "id": "p-58da75eb42d9",
+  "title": "ExportedProject",
+  "summary": "Local zread wiki project",
+  "rootPath": "H:\\Work\\U3D_RF2022\\ExportedProject",
+  "versionId": "2026-05-01-014513",
+  "generatedAt": "2026-04-30T17:45:13.7867375Z",
+  "language": "zh",
+  "pageCount": 30,
+  "tags": [
+    "核心游戏系统",
+    "角色与动画",
+    "资源管理",
+    "物理引擎",
+    "人工智能",
+    "网络系统",
+    "测试系统",
+    "用户界面",
+    "音频系统",
+    "渲染系统"
+  ],
+  "pages": [
+    {
+      "slug": "1-chang-jing-guan-li",
+      "title": "场景管理",
+      "file": "1-chang-jing-guan-li.md",
+      "section": "核心游戏系统",
+      "level": "1"
+    },
+    {
+      "slug": "2-you-xi-xun-huan",
+      "title": "游戏循环",
+      "file": "2-you-xi-xun-huan.md",
+      "section": "核心游戏系统",
+      "level": "1"
+    },
+    {
+      "slug": "3-shu-ru-chu-li",
+      "title": "输入处理",
+      "file": "3-shu-ru-chu-li.md",
+      "section": "核心游戏系统",
+      "level": "1"
+    },
+    {
+      "slug": "4-jiao-se-kong-zhi-qi",
+      "title": "角色控制器",
+      "file": "4-jiao-se-kong-zhi-qi.md",
+      "section": "角色与动画",
+      "level": "1"
+    },
+    {
+      "slug": "5-dong-hua-xi-tong",
+      "title": "动画系统",
+      "file": "5-dong-hua-xi-tong.md",
+      "section": "角色与动画",
+      "level": "1"
+    },
+    {
+      "slug": "6-jiao-se-zhuang-tai-ji",
+      "title": "角色状态机",
+      "file": "6-jiao-se-zhuang-tai-ji.md",
+      "section": "角色与动画",
+      "level": "1"
+    },
+    {
+      "slug": "7-zi-chan-shu-ju-ku",
+      "title": "资产数据库",
+      "file": "7-zi-chan-shu-ju-ku.md",
+      "section": "资源管理",
+      "level": "1"
+    },
+    {
+      "slug": "8-bao-guan-li",
+      "title": "包管理",
+      "file": "8-bao-guan-li.md",
+      "section": "资源管理",
+      "level": "1"
+    },
+    {
+      "slug": "9-zi-yuan-jia-zai",
+      "title": "资源加载",
+      "file": "9-zi-yuan-jia-zai.md",
+      "section": "资源管理",
+      "level": "1"
+    },
+    {
+      "slug": "10-peng-zhuang-jian-ce",
+      "title": "碰撞检测",
+      "file": "10-peng-zhuang-jian-ce.md",
+      "section": "物理引擎",
+      "level": "1"
+    },
+    {
+      "slug": "11-wu-li-cai-zhi",
+      "title": "物理材质",
+      "file": "11-wu-li-cai-zhi.md",
+      "section": "物理引擎",
+      "level": "1"
+    },
+    {
+      "slug": "12-guan-jie-xi-tong",
+      "title": "关节系统",
+      "file": "12-guan-jie-xi-tong.md",
+      "section": "物理引擎",
+      "level": "1"
+    },
+    {
+      "slug": "13-xun-lu-xi-tong",
+      "title": "寻路系统",
+      "file": "13-xun-lu-xi-tong.md",
+      "section": "人工智能",
+      "level": "1"
+    },
+    {
+      "slug": "14-xing-wei-shu",
+      "title": "行为树",
+      "file": "14-xing-wei-shu.md",
+      "section": "人工智能",
+      "level": "1"
+    },
+    {
+      "slug": "15-qun-ti-xing-wei",
+      "title": "群体行为",
+      "file": "15-qun-ti-xing-wei.md",
+      "section": "人工智能",
+      "level": "1"
+    },
+    {
+      "slug": "16-wang-luo-tong-xin",
+      "title": "网络通信",
+      "file": "16-wang-luo-tong-xin.md",
+      "section": "网络系统",
+      "level": "1"
+    },
+    {
+      "slug": "17-tong-bu-ji-zhi",
+      "title": "同步机制",
+      "file": "17-tong-bu-ji-zhi.md",
+      "section": "网络系统",
+      "level": "1"
+    },
+    {
+      "slug": "18-wang-luo-you-hua",
+      "title": "网络优化",
+      "file": "18-wang-luo-you-hua.md",
+      "section": "网络系统",
+      "level": "1"
+    },
+    {
+      "slug": "19-dan-yuan-ce-shi",
+      "title": "单元测试",
+      "file": "19-dan-yuan-ce-shi.md",
+      "section": "测试系统",
+      "level": "1"
+    },
+    {
+      "slug": "20-ji-cheng-ce-shi",
+      "title": "集成测试",
+      "file": "20-ji-cheng-ce-shi.md",
+      "section": "测试系统",
+      "level": "1"
+    },
+    {
+      "slug": "21-xing-neng-ce-shi",
+      "title": "性能测试",
+      "file": "21-xing-neng-ce-shi.md",
+      "section": "测试系统",
+      "level": "1"
+    },
+    {
+      "slug": "22-zhu-cai-dan",
+      "title": "主菜单",
+      "file": "22-zhu-cai-dan.md",
+      "section": "用户界面",
+      "level": "1"
+    },
+    {
+      "slug": "23-hudjie-mian",
+      "title": "HUD界面",
+      "file": "23-hudjie-mian.md",
+      "section": "用户界面",
+      "level": "1"
+    },
+    {
+      "slug": "24-she-zhi-jie-mian",
+      "title": "设置界面",
+      "file": "24-she-zhi-jie-mian.md",
+      "section": "用户界面",
+      "level": "1"
+    },
+    {
+      "slug": "25-yin-xiao-guan-li",
+      "title": "音效管理",
+      "file": "25-yin-xiao-guan-li.md",
+      "section": "音频系统",
+      "level": "1"
+    },
+    {
+      "slug": "26-bei-jing-yin-le",
+      "title": "背景音乐",
+      "file": "26-bei-jing-yin-le.md",
+      "section": "音频系统",
+      "level": "1"
+    },
+    {
+      "slug": "27-yin-pin-hun-he",
+      "title": "音频混合",
+      "file": "27-yin-pin-hun-he.md",
+      "section": "音频系统",
+      "level": "1"
+    },
+    {
+      "slug": "28-zhao-se-qi",
+      "title": "着色器",
+      "file": "28-zhao-se-qi.md",
+      "section": "渲染系统",
+      "level": "1"
+    },
+    {
+      "slug": "29-guang-zhao-yu-yin-ying",
+      "title": "光照与阴影",
+      "file": "29-guang-zhao-yu-yin-ying.md",
+      "section": "渲染系统",
+      "level": "1"
+    },
+    {
+      "slug": "30-hou-chu-li",
+      "title": "后处理",
+      "file": "30-hou-chu-li.md",
+      "section": "渲染系统",
+      "level": "1"
+    }
+  ],
+  "dataBase": "/hub-data/projects/p-58da75eb42d9"
+}

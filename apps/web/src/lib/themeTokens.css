@@ -1,0 +1,18 @@
+﻿:root {
+  --background: #f6f7f9;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --border: #e2e8f0;
+  --muted-foreground: #64748b;
+  --theme: #0ea5e9;
+  --radius-card: 16px;
+}
+
+.dark {
+  --background: #0b1220;
+  --foreground: #e5e7eb;
+  --card: #121a2b;
+  --border: #263247;
+  --muted-foreground: #94a3b8;
+  --theme: #38bdf8;
+}

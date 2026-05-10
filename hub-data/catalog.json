@@ -1,0 +1,1743 @@
+{
+  "generatedAt": "2026-05-10T16:06:18.176Z",
+  "totalProjects": 4,
+  "projects": [
+    {
+      "id": "p-c13b1b02f9db",
+      "title": "Assets",
+      "summary": "Local zread wiki project",
+      "rootPath": "C:\\temp\\Unity3D_RO\\clientproj\\Assets",
+      "versionId": "2026-05-10-124151",
+      "generatedAt": "2026-05-10T04:41:51.7395171Z",
+      "language": "zh",
+      "pageCount": 36,
+      "tags": [
+        "入门指南",
+        "核心框架",
+        "游戏系统",
+        "工具链与工作流",
+        "第三方集成"
+      ],
+      "pages": [
+        {
+          "slug": "1-xiang-mu-gai-lan",
+          "title": "项目概览",
+          "file": "1-xiang-mu-gai-lan.md",
+          "section": "入门指南",
+          "level": "Beginner"
+        },
+        {
+          "slug": "2-kuai-su-qi-dong",
+          "title": "快速启动",
+          "file": "2-kuai-su-qi-dong.md",
+          "section": "入门指南",
+          "level": "Beginner"
+        },
+        {
+          "slug": "3-kai-fa-huan-jing-pei-zhi",
+          "title": "开发环境配置",
+          "file": "3-kai-fa-huan-jing-pei-zhi.md",
+          "section": "入门指南",
+          "group": "环境准备",
+          "level": "Beginner"
+        },
+        {
+          "slug": "4-yi-lai-ku-an-zhuang-shuo-ming",
+          "title": "依赖库安装说明",
+          "file": "4-yi-lai-ku-an-zhuang-shuo-ming.md",
+          "section": "入门指南",
+          "group": "环境准备",
+          "level": "Beginner"
+        },
+        {
+          "slug": "5-xiang-mu-jia-gou-zong-lan",
+          "title": "项目架构总览",
+          "file": "5-xiang-mu-jia-gou-zong-lan.md",
+          "section": "入门指南",
+          "group": "核心概念",
+          "level": "Beginner"
+        },
+        {
+          "slug": "6-c-yu-luahun-he-kai-fa-mo-shi",
+          "title": "C#与Lua混合开发模式",
+          "file": "6-c-yu-luahun-he-kai-fa-mo-shi.md",
+          "section": "入门指南",
+          "group": "核心概念",
+          "level": "Beginner"
+        },
+        {
+          "slug": "7-toluakuang-jia-pei-zhi-yu-shi-yong",
+          "title": "ToLua框架配置与使用",
+          "file": "7-toluakuang-jia-pei-zhi-yu-shi-yong.md",
+          "section": "核心框架",
+          "group": "Lua引擎集成",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "8-luaxu-ni-ji-sheng-ming-zhou-qi-guan-li",
+          "title": "Lua虚拟机生命周期管理",
+          "file": "8-luaxu-ni-ji-sheng-ming-zhou-qi-guan-li.md",
+          "section": "核心框架",
+          "group": "Lua引擎集成",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "9-luayu-c-jiao-hu-qiao-jie",
+          "title": "Lua与C#交互桥接",
+          "file": "9-luayu-c-jiao-hu-qiao-jie.md",
+          "section": "核心框架",
+          "group": "Lua引擎集成",
+          "level": "Advanced"
+        },
+        {
+          "slug": "10-protobufxie-yi-ji-cheng",
+          "title": "Protobuf协议集成",
+          "file": "10-protobufxie-yi-ji-cheng.md",
+          "section": "核心框架",
+          "group": "网络通信",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "11-wang-luo-ceng-jia-gou-yu-xiao-xi-chu-li",
+          "title": "网络层架构与消息处理",
+          "file": "11-wang-luo-ceng-jia-gou-yu-xiao-xi-chu-li.md",
+          "section": "核心框架",
+          "group": "网络通信",
+          "level": "Advanced"
+        },
+        {
+          "slug": "12-uikuang-jia-she-ji-ctrl-handler-panel-template",
+          "title": "UI框架设计（Ctrl/Handler/Panel/Template）",
+          "file": "12-uikuang-jia-she-ji-ctrl-handler-panel-template.md",
+          "section": "核心框架",
+          "group": "UI系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "13-uijie-mian-guan-li-qi-yu-dui-zhan-ji-zhi",
+          "title": "UI界面管理器与堆栈机制",
+          "file": "13-uijie-mian-guan-li-qi-yu-dui-zhan-ji-zhi.md",
+          "section": "核心框架",
+          "group": "UI系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "14-assetbundlexi-tong-jia-gou",
+          "title": "AssetBundle系统架构",
+          "file": "14-assetbundlexi-tong-jia-gou.md",
+          "section": "核心框架",
+          "group": "资源管理",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "15-zi-yuan-da-bao-yu-re-geng-xin-liu-cheng",
+          "title": "资源打包与热更新流程",
+          "file": "15-zi-yuan-da-bao-yu-re-geng-xin-liu-cheng.md",
+          "section": "核心框架",
+          "group": "资源管理",
+          "level": "Advanced"
+        },
+        {
+          "slug": "16-jiao-se-chuang-jian-yu-shu-ju-guan-li",
+          "title": "角色创建与数据管理",
+          "file": "16-jiao-se-chuang-jian-yu-shu-ju-guan-li.md",
+          "section": "游戏系统",
+          "group": "角色系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "17-zhuang-bei-yu-shu-xing-xi-tong",
+          "title": "装备与属性系统",
+          "file": "17-zhuang-bei-yu-shu-xing-xi-tong.md",
+          "section": "游戏系统",
+          "group": "角色系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "18-ji-neng-xi-tong-shi-xian",
+          "title": "技能系统实现",
+          "file": "18-ji-neng-xi-tong-shi-xian.md",
+          "section": "游戏系统",
+          "group": "战斗系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "19-zhan-dou-luo-ji-yu-shu-zhi-ji-suan",
+          "title": "战斗逻辑与数值计算",
+          "file": "19-zhan-dou-luo-ji-yu-shu-zhi-ji-suan.md",
+          "section": "游戏系统",
+          "group": "战斗系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "20-hao-you-yu-liao-tian-xi-tong",
+          "title": "好友与聊天系统",
+          "file": "20-hao-you-yu-liao-tian-xi-tong.md",
+          "section": "游戏系统",
+          "group": "社交系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "21-gong-hui-xi-tong-jia-gou",
+          "title": "公会系统架构",
+          "file": "21-gong-hui-xi-tong-jia-gou.md",
+          "section": "游戏系统",
+          "group": "社交系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "22-wu-pin-yu-bei-bao-xi-tong",
+          "title": "物品与背包系统",
+          "file": "22-wu-pin-yu-bei-bao-xi-tong.md",
+          "section": "游戏系统",
+          "group": "经济与养成",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "23-shang-cheng-yu-jiao-yi-xi-tong",
+          "title": "商城与交易系统",
+          "file": "23-shang-cheng-yu-jiao-yi-xi-tong.md",
+          "section": "游戏系统",
+          "group": "经济与养成",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "24-zi-dong-hua-da-bao-xi-tong",
+          "title": "自动化打包系统",
+          "file": "24-zi-dong-hua-da-bao-xi-tong.md",
+          "section": "工具链与工作流",
+          "group": "编辑器工具",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "25-zi-yuan-jian-cha-yu-you-hua-gong-ju",
+          "title": "资源检查与优化工具",
+          "file": "25-zi-yuan-jian-cha-yu-you-hua-gong-ju.md",
+          "section": "工具链与工作流",
+          "group": "编辑器工具",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "26-zi-ding-yi-bian-ji-qi-kuo-zhan-kai-fa",
+          "title": "自定义编辑器扩展开发",
+          "file": "26-zi-ding-yi-bian-ji-qi-kuo-zhan-kai-fa.md",
+          "section": "工具链与工作流",
+          "group": "编辑器工具",
+          "level": "Advanced"
+        },
+        {
+          "slug": "27-uwaxing-neng-fen-xi-ji-cheng",
+          "title": "UWA性能分析集成",
+          "file": "27-uwaxing-neng-fen-xi-ji-cheng.md",
+          "section": "工具链与工作流",
+          "group": "性能优化",
+          "level": "Advanced"
+        },
+        {
+          "slug": "28-nei-cun-guan-li-yu-you-hua-ce-lue",
+          "title": "内存管理与优化策略",
+          "file": "28-nei-cun-guan-li-yu-you-hua-ce-lue.md",
+          "section": "工具链与工作流",
+          "group": "性能优化",
+          "level": "Advanced"
+        },
+        {
+          "slug": "29-androidping-tai-te-xing-yu-gua-pei",
+          "title": "Android平台特性与适配",
+          "file": "29-androidping-tai-te-xing-yu-gua-pei.md",
+          "section": "工具链与工作流",
+          "group": "多平台适配",
+          "level": "Advanced"
+        },
+        {
+          "slug": "30-iosping-tai-te-xing-yu-gua-pei",
+          "title": "iOS平台特性与适配",
+          "file": "30-iosping-tai-te-xing-yu-gua-pei.md",
+          "section": "工具链与工作流",
+          "group": "多平台适配",
+          "level": "Advanced"
+        },
+        {
+          "slug": "31-fmodyin-pin-xi-tong-ji-cheng",
+          "title": "FMOD音频系统集成",
+          "file": "31-fmodyin-pin-xi-tong-ji-cheng.md",
+          "section": "第三方集成",
+          "group": "多媒体",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "32-avprovideoshi-pin-bo-fang",
+          "title": "AVProVideo视频播放",
+          "file": "32-avprovideoshi-pin-bo-fang.md",
+          "section": "第三方集成",
+          "group": "多媒体",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "33-spine-2dgu-ge-dong-hua",
+          "title": "Spine 2D骨骼动画",
+          "file": "33-spine-2dgu-ge-dong-hua.md",
+          "section": "第三方集成",
+          "group": "多媒体",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "34-cinemachineshe-xiang-ji-kong-zhi",
+          "title": "Cinemachine摄像机控制",
+          "file": "34-cinemachineshe-xiang-ji-kong-zhi.md",
+          "section": "第三方集成",
+          "group": "游戏辅助",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "35-dotweendong-hua-bu-jian",
+          "title": "DOTween动画补间",
+          "file": "35-dotweendong-hua-bu-jian.md",
+          "section": "第三方集成",
+          "group": "游戏辅助",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "36-behavior-designerxing-wei-shu-ai",
+          "title": "Behavior Designer行为树AI",
+          "file": "36-behavior-designerxing-wei-shu-ai.md",
+          "section": "第三方集成",
+          "group": "游戏辅助",
+          "level": "Advanced"
+        }
+      ],
+      "dataBase": "/hub-data/projects/p-c13b1b02f9db"
+    },
+    {
+      "id": "p-6e3249bf828c",
+      "title": "Doc",
+      "summary": "Markdown project",
+      "rootPath": "H:\\Work\\U3D_EF\\ProjectEF\\Assets\\Doc",
+      "versionId": null,
+      "generatedAt": "2026-05-10T16:06:18.174Z",
+      "language": null,
+      "pageCount": 134,
+      "tags": [
+        "10_Projects / FishMarket / Design",
+        "10_Projects / FishMarket / PRD",
+        "10_Projects / TaskSystem / Design",
+        "10_Projects / TaskSystem / PRD",
+        "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+        "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+        "1_CameraV2 / 1_CameraV2 / 2_OrbitViewCamera",
+        "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+        "1_CameraV2 / 1_CameraV2 / 4_UnifiedEditor",
+        "1_CameraV2 / 1_CameraV2",
+        "TackleAss",
+        "TackleAssemble",
+        "UIProcess",
+        "Root"
+      ],
+      "pages": [
+        {
+          "slug": "10_projects/fishmarket/design/鱼市uitask_设计文档v1",
+          "title": "鱼市(FishMarket)UI设计文档 | v1.0 | 2026-01-27",
+          "file": "10_projects/fishmarket/design/鱼市uitask_设计文档v1.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketkeepnetuitask_architecture",
+          "title": "FishMarketUITask & KeepnetUITask 架构文档",
+          "file": "10_projects/fishmarket/design/fishmarketkeepnetuitask_architecture.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketphase2_开发设计方案",
+          "title": "鱼市二期开发设计方案文档",
+          "file": "10_projects/fishmarket/design/fishmarketphase2_开发设计方案.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketphase2_数据流分析",
+          "title": "BJF Data Flow Design - FishMarketUITask Phase 2 (鱼市任务系统)",
+          "file": "10_projects/fishmarket/design/fishmarketphase2_数据流分析.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketphase2_数据流设计",
+          "title": "BJF Data Flow Design - FishMarketUITask Phase 2",
+          "file": "10_projects/fishmarket/design/fishmarketphase2_数据流设计.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketphase2_详细功能设计方案",
+          "title": "鱼市二期详细功能设计方案",
+          "file": "10_projects/fishmarket/design/fishmarketphase2_详细功能设计方案.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketphase2_ui对应文档",
+          "title": "鱼市二期 - UI Prefab 对应文档",
+          "file": "10_projects/fishmarket/design/fishmarketphase2_ui对应文档.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_代码审核报告",
+          "title": "FishMarketUITask 代码审核报告",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_代码审核报告.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_开发速查表",
+          "title": "鱼市任务系统 - 开发速查表",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_开发速查表.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_设计文档",
+          "title": "鱼市(FishMarket)UI设计文档 | v2.0 | 2026-02-02",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_设计文档.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_数据流定量分析报告",
+          "title": "鱼市UITask 数据流定量分析报告",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_数据流定量分析报告.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_数据流分析报告",
+          "title": "鱼市UITask 数据流定量分析报告",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_数据流分析报告.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_bjframework_blueprint",
+          "title": "FishMarketUITask - BJFramework 蓝图语义解析",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_bjframework_blueprint.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_data_flow_design",
+          "title": "BJF Data Flow Design - FishMarketUITask",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_data_flow_design.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_phase2_开发方案",
+          "title": "鱼市二期开发设计方案文档",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_phase2_开发方案.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_prd_思维导图",
+          "title": "鱼市任务系统 - 思维导图",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_prd_思维导图.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_tips功能需求变更",
+          "title": "FishMarketUITask - 任务鱼提示弹窗功能需求变更文档",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_tips功能需求变更.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_tips功能需求变更文档",
+          "title": "FishMarketUITask - 任务鱼Tips功能需求变更文档",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_tips功能需求变更文档.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/design/fishmarketuitask_tips气泡弹窗功能设计文档",
+          "title": "FishMarketUITask - Tips气泡弹窗功能设计文档",
+          "file": "10_projects/fishmarket/design/fishmarketuitask_tips气泡弹窗功能设计文档.md",
+          "section": "10_Projects / FishMarket / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/prd/fishmarketuitask_prd_标注版",
+          "title": "Sheet: 目录",
+          "file": "10_projects/fishmarket/prd/fishmarketuitask_prd_标注版.md",
+          "section": "10_Projects / FishMarket / PRD",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/fishmarket/prd/fishmarketuitask_prd",
+          "title": "Sheet: 目录",
+          "file": "10_projects/fishmarket/prd/fishmarketuitask_prd.md",
+          "section": "10_Projects / FishMarket / PRD",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystem_architecture_blueprint_v2",
+          "title": "任务系统架构蓝图 (Task System Architecture Blueprint) - v2.0",
+          "file": "10_projects/tasksystem/design/tasksystem_architecture_blueprint_v2.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystem_architecture_blueprint_v3",
+          "title": "任务系统架构蓝图 (Task System Architecture Blueprint) - v3.0",
+          "file": "10_projects/tasksystem/design/tasksystem_architecture_blueprint_v3.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystem_architecture_blueprint",
+          "title": "任务系统架构蓝图 (Task System Architecture Blueprint)",
+          "file": "10_projects/tasksystem/design/tasksystem_architecture_blueprint.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystem_dataflow_design",
+          "title": "任务系统 - BJF 数据流设计文档",
+          "file": "10_projects/tasksystem/design/tasksystem_dataflow_design.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystemuitask_蓝图编译",
+          "title": "TaskSystem 蓝图编译输出 (BJFramework Blueprint Compiler)",
+          "file": "10_projects/tasksystem/design/tasksystemuitask_蓝图编译.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystemuitask_设计文档-mindmap",
+          "title": "TaskSystemUITask_设计文档-mindmap",
+          "file": "10_projects/tasksystem/design/tasksystemuitask_设计文档-mindmap.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/design/tasksystemuitask_设计文档",
+          "title": "任务系统UI设计文档 | ProjectEF | 2026-02-13",
+          "file": "10_projects/tasksystem/design/tasksystemuitask_设计文档.md",
+          "section": "10_Projects / TaskSystem / Design",
+          "level": "1"
+        },
+        {
+          "slug": "10_projects/tasksystem/prd/tasksytem",
+          "title": "Sheet: 总览",
+          "file": "10_projects/tasksystem/prd/tasksytem.md",
+          "section": "10_Projects / TaskSystem / PRD",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/1-camerarefactoring_module",
+          "title": "相机系统模块切分与边界定义规范 (Decoupling Specs)",
+          "file": "1_camerav2/1_camerav2/0_refactor/1-camerarefactoring_module.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/2_1-camerarefactoring_configuration",
+          "title": "配置设计方案（组件化对齐版）",
+          "file": "1_camerav2/1_camerav2/0_refactor/2_1-camerarefactoring_configuration.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/2-camerarefactoring_module_configuration",
+          "title": "配置模块 (M-CONFIG) 设计文档（组件化对齐版）",
+          "file": "1_camerav2/1_camerav2/0_refactor/2-camerarefactoring_module_configuration.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/3-camerarefactoring_module_core",
+          "title": "相机编排器 (M-CORE) 模块设计文档 (组件化对齐版)",
+          "file": "1_camerav2/1_camerav2/0_refactor/3-camerarefactoring_module_core.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/4-camerarefactoring_module_logic",
+          "title": "原子逻辑模块 (M-LOGIC) 设计文档 (组件化对齐版)",
+          "file": "1_camerav2/1_camerav2/0_refactor/4-camerarefactoring_module_logic.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/5-camerarefactoring_module_visualcamera",
+          "title": "虚拟相机 (M-VM) 模块设计文档 (组件化对齐版)",
+          "file": "1_camerav2/1_camerav2/0_refactor/5-camerarefactoring_module_visualcamera.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/6-camerarefactoring_module_provider",
+          "title": "数据提供者 (M-PROV) 模块设计文档",
+          "file": "1_camerav2/1_camerav2/0_refactor/6-camerarefactoring_module_provider.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/6-legacy_integration_plan",
+          "title": "遗留系统整合方案 (Legacy Integration Plan - Subsystem Approach)",
+          "file": "1_camerav2/1_camerav2/0_refactor/6-legacy_integration_plan.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/7-camerarefactor_migration",
+          "title": "相机系统组件化管道架构迁移方案文档 (Refactoring Design)",
+          "file": "1_camerav2/1_camerav2/0_refactor/7-camerarefactor_migration.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/7-camerarefactoring_module_blender",
+          "title": "状态混合器 (M-BLEND) 模块设计文档 (组件化对齐版)",
+          "file": "1_camerav2/1_camerav2/0_refactor/7-camerarefactoring_module_blender.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/architecture_standard",
+          "title": "相机系统 V2.0 重构架构分析报告",
+          "file": "1_camerav2/1_camerav2/0_refactor/architecture_standard.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/camera_refactor_evolution_analysis",
+          "title": "🎬 相机系统重构架构演化分析报告",
+          "file": "1_camerav2/1_camerav2/0_refactor/camera_refactor_evolution_analysis.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/cameracontrollerv2_integration_design",
+          "title": "CameraControllerV2 集成与接口统一方案",
+          "file": "1_camerav2/1_camerav2/0_refactor/cameracontrollerv2_integration_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_design",
+          "title": "相机系统组件化管道架构设计文档 (Refactoring Design)",
+          "file": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_detaileddesign",
+          "title": "相机系统组件化管道重构详细设计方案 (组件化对齐版)",
+          "file": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_detaileddesign.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_interface",
+          "title": "CameraRefactoring_Interface",
+          "file": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_interface.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_review",
+          "title": "CameraRefactoring_Review",
+          "file": "1_camerav2/1_camerav2/0_refactor/camerarefactoring_review.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/camerav2_architecture_analysis",
+          "title": "相机系统 V2.0 重构架构分析报告",
+          "file": "1_camerav2/1_camerav2/0_refactor/camerav2_architecture_analysis.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/config_module_design",
+          "title": "配置模块 (Configuration) 设计文档",
+          "file": "1_camerav2/1_camerav2/0_refactor/config_module_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/core_module_design",
+          "title": "相机编排器 (Core) 模块设计文档",
+          "file": "1_camerav2/1_camerav2/0_refactor/core_module_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/dynamic_mode_discovery_design",
+          "title": "动态模式发现与扩展设计方案 (Dynamic Mode Discovery)",
+          "file": "1_camerav2/1_camerav2/0_refactor/dynamic_mode_discovery_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/legacy_integration_plan",
+          "title": "遗留系统整合方案 (Legacy Integration Plan - Subsystem Approach)",
+          "file": "1_camerav2/1_camerav2/0_refactor/legacy_integration_plan.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/moduledecoupling_specs",
+          "title": "相机系统模块切分与边界定义规格书 (Module Decoupling Specs)",
+          "file": "1_camerav2/1_camerav2/0_refactor/moduledecoupling_specs.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/provider_module_design",
+          "title": "数据提供者 (Provider) 模块设计文档",
+          "file": "1_camerav2/1_camerav2/0_refactor/provider_module_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/quickreference",
+          "title": "相机系统重构快速参考指南",
+          "file": "1_camerav2/1_camerav2/0_refactor/quickreference.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/0_refactor/visualcamera_module_design",
+          "title": "VisualCamera (VM) 模块详细设计规范",
+          "file": "1_camerav2/1_camerav2/0_refactor/visualcamera_module_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 0_Refactor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/1_积木式组合/积木式重构迁移规划",
+          "title": "🧱 相机系统：积木式重构与旧模式迁移规划",
+          "file": "1_camerav2/1_camerav2/1_积木式组合/积木式重构迁移规划.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/1_积木式组合/cameracapability_design_usage",
+          "title": "相机能力系统设计与使用手册",
+          "file": "1_camerav2/1_camerav2/1_积木式组合/cameracapability_design_usage.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/1_积木式组合/deep_pipeline_decoupling_design",
+          "title": "🏗️ 相机系统深度管道化去耦合方案 (Deep Pipeline Decoupling)",
+          "file": "1_camerav2/1_camerav2/1_积木式组合/deep_pipeline_decoupling_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/1_积木式组合/extensible_context_design",
+          "title": "🧩 相机系统可扩展上下文与状态设计",
+          "file": "1_camerav2/1_camerav2/1_积木式组合/extensible_context_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/1_积木式组合/modular_building_blocks_implementation_details",
+          "title": "🧱 相机系统：积木式组合重构具体方案 (Final TDD)",
+          "file": "1_camerav2/1_camerav2/1_积木式组合/modular_building_blocks_implementation_details.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/1_积木式组合/modular_camera_refactor_implementation_plan",
+          "title": "相机系统积木式重构详细实施方案",
+          "file": "1_camerav2/1_camerav2/1_积木式组合/modular_camera_refactor_implementation_plan.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 1_积木式组合",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/2_orbitviewcamera/cameracontrollerv2_orbittarget_design",
+          "title": "CameraControllerV2 OrbitTarget 设计方案",
+          "file": "1_camerav2/1_camerav2/2_orbitviewcamera/cameracontrollerv2_orbittarget_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 2_OrbitViewCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/2_orbitviewcamera/orbitview_decoupling_design",
+          "title": "🛠️ OrbitView 模块化去耦合技术方案 (TDD)",
+          "file": "1_camerav2/1_camerav2/2_orbitviewcamera/orbitview_decoupling_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 2_OrbitViewCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/2_orbitviewcamera/orbitviewcamera_migration_design",
+          "title": "相机模式迁移方案：OrbitViewCameraMode 重构设计",
+          "file": "1_camerav2/1_camerav2/2_orbitviewcamera/orbitviewcamera_migration_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 2_OrbitViewCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/2_orbitviewcamera/orbitviewcamera_migration_implementation",
+          "title": "OrbitViewCameraMode 迁移详细功能实现方案",
+          "file": "1_camerav2/1_camerav2/2_orbitviewcamera/orbitviewcamera_migration_implementation.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 2_OrbitViewCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/autofit_capability_vs_orbitcontext_design",
+          "title": "AutoFit 能力路由 与 OrbitContextExtension 方案整理",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/autofit_capability_vs_orbitcontext_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/cameraframe2showcasecamera_plan",
+          "title": "CameraFrame → ShowcaseCamera 机位保存 实现计划",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/cameraframe2showcasecamera_plan.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/observationpoint_autofit_design",
+          "title": "观察点（Observation Point）AutoFit 详细功能设计",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/observationpoint_autofit_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/observationpoint_autofit_implementation_plan",
+          "title": "ObservationPoint AutoFit Implementation Plan",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/observationpoint_autofit_implementation_plan.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/showcasecamera_design",
+          "title": "多机位展示相机（ShowcaseCamera）设计文档",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/showcasecamera_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/showcasecamera_implementationplan",
+          "title": "ShowcaseCamera Implementation Plan",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/showcasecamera_implementationplan.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/showcasecamera_usage",
+          "title": "ShowcaseCamera 使用说明",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/showcasecamera_usage.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/showcasedebuguitask_design",
+          "title": "ShowcaseDebugUITask 设计方案",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/showcasedebuguitask_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/stageactor_observationpoint_design",
+          "title": "StageActor 命名观察点（ObservationPoint）功能设计文档",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/stageactor_observationpoint_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/stageactor_observationpoint_usage",
+          "title": "StageActor ObservationPoint 使用手册",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/stageactor_observationpoint_usage.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/3_showcasecamera/stageactorview_cameraswitchpipeline_design",
+          "title": "StageActorViewUITask 相机机位切换管线设计方案",
+          "file": "1_camerav2/1_camerav2/3_showcasecamera/stageactorview_cameraswitchpipeline_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 3_ShowcaseCamera",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/4_unifiededitor/showcasecamera_unifiededitor_design",
+          "title": "ShowcaseCamera 统一可视化编辑器设计方案",
+          "file": "1_camerav2/1_camerav2/4_unifiededitor/showcasecamera_unifiededitor_design.md",
+          "section": "1_CameraV2 / 1_CameraV2 / 4_UnifiedEditor",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/cameracontrollerv2_wiki",
+          "title": "🚀 CameraController V2 技术维基 (Deep Wiki)",
+          "file": "1_camerav2/1_camerav2/cameracontrollerv2_wiki.md",
+          "section": "1_CameraV2 / 1_CameraV2",
+          "level": "1"
+        },
+        {
+          "slug": "1_camerav2/1_camerav2/camerav2_gizmo_architecture",
+          "title": "Camera V2 Scene View Gizmo 可视化架构",
+          "file": "1_camerav2/1_camerav2/camerav2_gizmo_architecture.md",
+          "section": "1_CameraV2 / 1_CameraV2",
+          "level": "1"
+        },
+        {
+          "slug": "tackleass/dataflow_initialization_supplement",
+          "title": "钓具组装UITask - 完整数据流图（含初始化流程）",
+          "file": "tackleass/dataflow_initialization_supplement.md",
+          "section": "TackleAss",
+          "level": "1"
+        },
+        {
+          "slug": "tackleass/fishassemble",
+          "title": "fishassemble",
+          "file": "tackleass/fishassemble.md",
+          "section": "TackleAss",
+          "level": "1"
+        },
+        {
+          "slug": "tackleass/tackleassembleuitask_design_proposal",
+          "title": "钓具组装UITask功能设计方案",
+          "file": "tackleass/tackleassembleuitask_design_proposal.md",
+          "section": "TackleAss",
+          "level": "1"
+        },
+        {
+          "slug": "tackleass/tackleassembleuitask_detailed_functional_design_v2",
+          "title": "钓具组装UITask详细功能设计文档 v2.0",
+          "file": "tackleass/tackleassembleuitask_detailed_functional_design_v2.md",
+          "section": "TackleAss",
+          "level": "1"
+        },
+        {
+          "slug": "tackleass/tackleassembleuitask_prefab_specification_v2",
+          "title": "钓具组装UITask - UIPrefab结构说明文档 v2.0",
+          "file": "tackleass/tackleassembleuitask_prefab_specification_v2.md",
+          "section": "TackleAss",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/bjframeworkanalysisofrefactoringplan_detailed",
+          "title": "BJFramework 框架下钓具组装重构方案分析报告 (结合 `IStageActor` 组合场景 - 最终修订版)",
+          "file": "tackleassemble/bjframeworkanalysisofrefactoringplan_detailed.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/bjframeworkanalysisofrefactoringplan1",
+          "title": "BJFramework 框架下钓具组装重构方案分析报告 (结合 `StageActorViewUITask` 上下文)",
+          "file": "tackleassemble/bjframeworkanalysisofrefactoringplan1.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/bjframeworkcomprehensiverefactoringplan_final",
+          "title": "BJFramework 框架下钓具组装重构方案 (综合版)",
+          "file": "tackleassemble/bjframeworkcomprehensiverefactoringplan_final.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/bjframeworkcomprehensiverefactoringplan_graphversion",
+          "title": "BJFramework 框架下 Actor 部件图组装与挂载重构方案 (综合版)",
+          "file": "tackleassemble/bjframeworkcomprehensiverefactoringplan_graphversion.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/bjframeworkcomprehensiverefactoringplan",
+          "title": "BJFramework 框架下钓具组装重构方案 (综合版)",
+          "file": "tackleassemble/bjframeworkcomprehensiverefactoringplan.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/integratedtackleassemble_detailedfunctionaldesign",
+          "title": "钓具组装完整流程 - 详细功能设计文档",
+          "file": "tackleassemble/integratedtackleassemble_detailedfunctionaldesign.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/integratedtackleassemble_functionalrequirements",
+          "title": "钓具组装完整流程 - 功能需求文档",
+          "file": "tackleassemble/integratedtackleassemble_functionalrequirements.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/integratedtackleassemble_implementation_architecture",
+          "title": "钓具组装完整流程 - 实现架构文档",
+          "file": "tackleassemble/integratedtackleassemble_implementation_architecture.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/integratedtackleassemble_technicaldesign",
+          "title": "钓具组装完整流程 - 技术设计文档",
+          "file": "tackleassemble/integratedtackleassemble_technicaldesign.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/tackleassemble_detailedfunctionaldesign",
+          "title": "钓具组装界面交互优化 - 详细功能设计文档",
+          "file": "tackleassemble/tackleassemble_detailedfunctionaldesign.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/tackleassemble_functionalrequirements",
+          "title": "钓具组装界面交互优化 - 功能需求文档",
+          "file": "tackleassemble/tackleassemble_functionalrequirements.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/tackleassemble_technicaldesign",
+          "title": "钓具组装界面交互优化 - 功能设计文档",
+          "file": "tackleassemble/tackleassemble_technicaldesign.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/tackleassemblebaitgrouptofu_refactordesign",
+          "title": "钓具组装UI：钓组放大镜模块重构方案 (修订版)",
+          "file": "tackleassemble/tackleassemblebaitgrouptofu_refactordesign.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/tackleassemblyrefactoringplan",
+          "title": "`TackleStageActorFactory.cs` 架构优化与重构方案",
+          "file": "tackleassemble/tackleassemblyrefactoringplan.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "tackleassemble/tacklefactory_design",
+          "title": "TackleFactory.Create() - 方法设计文档",
+          "file": "tackleassemble/tacklefactory_design.md",
+          "section": "TackleAssemble",
+          "level": "1"
+        },
+        {
+          "slug": "uiprocess/uiprocess_visual_editor_design",
+          "title": "功能设计文档：UIProcess 可视化编辑器与数据驱动系统",
+          "file": "uiprocess/uiprocess_visual_editor_design.md",
+          "section": "UIProcess",
+          "level": "1"
+        },
+        {
+          "slug": "uiprocess/uiprocess_visual_editor_detailed_design_v2",
+          "title": "UIProcess 可视化编辑器详细功能设计文档 v2",
+          "file": "uiprocess/uiprocess_visual_editor_detailed_design_v2.md",
+          "section": "UIProcess",
+          "level": "1"
+        },
+        {
+          "slug": "uiprocess/uiprocess_visual_editor_phase2_detailed_design",
+          "title": "UIProcess 可视化编辑器 - 阶段二详细功能设计文档",
+          "file": "uiprocess/uiprocess_visual_editor_phase2_detailed_design.md",
+          "section": "UIProcess",
+          "level": "1"
+        },
+        {
+          "slug": "uiprocess/uiprocess_visual_editor_phase2_development_document",
+          "title": "UIProcess 可视化编辑器补充功能开发文档 (阶段二)",
+          "file": "uiprocess/uiprocess_visual_editor_phase2_development_document.md",
+          "section": "UIProcess",
+          "level": "1"
+        },
+        {
+          "slug": "uiprocess/uiprocess_visual_editor_prd",
+          "title": "产品需求文档：UIProcess 可视化编辑器与数据驱动机制",
+          "file": "uiprocess/uiprocess_visual_editor_prd.md",
+          "section": "UIProcess",
+          "level": "1"
+        },
+        {
+          "slug": "uiprocess/uiprocess_visual_editor_user_manual",
+          "title": "UIProcess 可视化编辑器 用户手册",
+          "file": "uiprocess/uiprocess_visual_editor_user_manual.md",
+          "section": "UIProcess",
+          "level": "1"
+        },
+        {
+          "slug": "architecture_analysis_report",
+          "title": "Project EF - Architecture Analysis Report",
+          "file": "architecture_analysis_report.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "bjframework_ui_automation_center_graphview_prd",
+          "title": "BJFramework UI 自动化中心 - GraphView 产品需求文档 (PRD)",
+          "file": "bjframework_ui_automation_center_graphview_prd.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "bjframework_ui_automation_center_ui_design_specification",
+          "title": "BJFramework UI 自动化中心 (BJFramework UI Automation Center) - UI 设计方案",
+          "file": "bjframework_ui_automation_center_ui_design_specification.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "bjframework_ui_automation_tool_product_requirements",
+          "title": "BJFramework UI Prefab 自动化工具 - 产品功能需求文档",
+          "file": "bjframework_ui_automation_tool_product_requirements.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "bjframework",
+          "title": "bjframework",
+          "file": "bjframework.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "camera_architecture",
+          "title": "相机模块架构与功能分析报告",
+          "file": "camera_architecture.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "camerastate",
+          "title": "基于状态机的相机状态管理方案 (参考 Cinemachine)",
+          "file": "camerastate.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "cinematiccameraeditor_deliverychecklist",
+          "title": "电影级相机编辑器 - 交付清单",
+          "file": "cinematiccameraeditor_deliverychecklist.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "cinematiccameraeditor_implementationsummary",
+          "title": "电影级相机编辑器 - 实施总结报告",
+          "file": "cinematiccameraeditor_implementationsummary.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "cinematiccameraeditor_quickstart",
+          "title": "电影级相机编辑器 - 5分钟快速开始",
+          "file": "cinematiccameraeditor_quickstart.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "cinematiccameraeditor_userguide",
+          "title": "电影级相机编辑器 - 使用指南",
+          "file": "cinematiccameraeditor_userguide.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "cinematiccameraeditordesign",
+          "title": "风格驱动的电影级相机编辑器 (Style-Driven Cinematic Camera Editor)",
+          "file": "cinematiccameraeditordesign.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "cinematiccameraeditordetaileddesign",
+          "title": "风格驱动的电影级相机编辑器 - 详细设计方案",
+          "file": "cinematiccameraeditordetaileddesign.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "pipelinesync",
+          "title": "pipelinesync",
+          "file": "pipelinesync.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "robust_code_merging_and_analysis_technical_proposal",
+          "title": "鲁棒的代码合并与分析技术方案",
+          "file": "robust_code_merging_and_analysis_technical_proposal.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "ui_prefab_automation_tool_design_v2",
+          "title": "Unity UI Prefab 组件自动化工具 - 详细技术设计方案 V2",
+          "file": "ui_prefab_automation_tool_design_v2.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "ui_prefab_automation_tool_design",
+          "title": "Unity UI Prefab 组件自动化工具 - 详细技术设计方案",
+          "file": "ui_prefab_automation_tool_design.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "ui_prefab_automation_tool_requirements",
+          "title": "Unity UI Prefab 组件自动化收集与描述文件导出工具需求方案",
+          "file": "ui_prefab_automation_tool_requirements.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "ui_prefab_tool_implementation_summary",
+          "title": "UI Prefab 自动化工具 - 实现总结",
+          "file": "ui_prefab_tool_implementation_summary.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "ui_prefab_tool_special_component_feature",
+          "title": "UI Prefab 自动化工具 - 特殊组件额外字段导出功能设计",
+          "file": "ui_prefab_tool_special_component_feature.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "ui_prefab_tool_updates_summary",
+          "title": "UI Prefab 自动化工具 - 更新总结",
+          "file": "ui_prefab_tool_updates_summary.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uipipelinehijackingspecification",
+          "title": "UI管线劫持与协作规范",
+          "file": "uipipelinehijackingspecification.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uiprefabpreviewtool_featurespec",
+          "title": "功能需求文档：通用 UI Prefab 预览工具 (v2)",
+          "file": "uiprefabpreviewtool_featurespec.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uiprefabtool_robust_code_merging_iterative_development_plan",
+          "title": "UIPrefabTool 鲁棒代码合并 - 迭代式开发方案",
+          "file": "uiprefabtool_robust_code_merging_iterative_development_plan.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uiscriptautogentool_development_documentation",
+          "title": "UIScriptAutoGenTool 开发文档",
+          "file": "uiscriptautogentool_development_documentation.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uiscriptautogentool_user_manual",
+          "title": "UIScriptAutoGenTool 用户手册",
+          "file": "uiscriptautogentool_user_manual.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uitask_architecture_comprehensive_guide_v2",
+          "title": "UITask_Architecture_Comprehensive_Guide_v2",
+          "file": "uitask_architecture_comprehensive_guide_v2.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "uitask_system_documentation",
+          "title": "UITask 系统说明与使用指南",
+          "file": "uitask_system_documentation.md",
+          "section": "Root",
+          "level": "1"
+        },
+        {
+          "slug": "unode_research_report",
+          "title": "uNode 技术调研报告",
+          "file": "unode_research_report.md",
+          "section": "Root",
+          "level": "1"
+        }
+      ],
+      "dataBase": "/hub-data/projects/p-6e3249bf828c"
+    },
+    {
+      "id": "p-58da75eb42d9",
+      "title": "ExportedProject",
+      "summary": "Local zread wiki project",
+      "rootPath": "H:\\Work\\U3D_RF2022\\ExportedProject",
+      "versionId": "2026-05-01-014513",
+      "generatedAt": "2026-04-30T17:45:13.7867375Z",
+      "language": "zh",
+      "pageCount": 30,
+      "tags": [
+        "核心游戏系统",
+        "角色与动画",
+        "资源管理",
+        "物理引擎",
+        "人工智能",
+        "网络系统",
+        "测试系统",
+        "用户界面",
+        "音频系统",
+        "渲染系统"
+      ],
+      "pages": [
+        {
+          "slug": "1-chang-jing-guan-li",
+          "title": "场景管理",
+          "file": "1-chang-jing-guan-li.md",
+          "section": "核心游戏系统",
+          "level": "1"
+        },
+        {
+          "slug": "2-you-xi-xun-huan",
+          "title": "游戏循环",
+          "file": "2-you-xi-xun-huan.md",
+          "section": "核心游戏系统",
+          "level": "1"
+        },
+        {
+          "slug": "3-shu-ru-chu-li",
+          "title": "输入处理",
+          "file": "3-shu-ru-chu-li.md",
+          "section": "核心游戏系统",
+          "level": "1"
+        },
+        {
+          "slug": "4-jiao-se-kong-zhi-qi",
+          "title": "角色控制器",
+          "file": "4-jiao-se-kong-zhi-qi.md",
+          "section": "角色与动画",
+          "level": "1"
+        },
+        {
+          "slug": "5-dong-hua-xi-tong",
+          "title": "动画系统",
+          "file": "5-dong-hua-xi-tong.md",
+          "section": "角色与动画",
+          "level": "1"
+        },
+        {
+          "slug": "6-jiao-se-zhuang-tai-ji",
+          "title": "角色状态机",
+          "file": "6-jiao-se-zhuang-tai-ji.md",
+          "section": "角色与动画",
+          "level": "1"
+        },
+        {
+          "slug": "7-zi-chan-shu-ju-ku",
+          "title": "资产数据库",
+          "file": "7-zi-chan-shu-ju-ku.md",
+          "section": "资源管理",
+          "level": "1"
+        },
+        {
+          "slug": "8-bao-guan-li",
+          "title": "包管理",
+          "file": "8-bao-guan-li.md",
+          "section": "资源管理",
+          "level": "1"
+        },
+        {
+          "slug": "9-zi-yuan-jia-zai",
+          "title": "资源加载",
+          "file": "9-zi-yuan-jia-zai.md",
+          "section": "资源管理",
+          "level": "1"
+        },
+        {
+          "slug": "10-peng-zhuang-jian-ce",
+          "title": "碰撞检测",
+          "file": "10-peng-zhuang-jian-ce.md",
+          "section": "物理引擎",
+          "level": "1"
+        },
+        {
+          "slug": "11-wu-li-cai-zhi",
+          "title": "物理材质",
+          "file": "11-wu-li-cai-zhi.md",
+          "section": "物理引擎",
+          "level": "1"
+        },
+        {
+          "slug": "12-guan-jie-xi-tong",
+          "title": "关节系统",
+          "file": "12-guan-jie-xi-tong.md",
+          "section": "物理引擎",
+          "level": "1"
+        },
+        {
+          "slug": "13-xun-lu-xi-tong",
+          "title": "寻路系统",
+          "file": "13-xun-lu-xi-tong.md",
+          "section": "人工智能",
+          "level": "1"
+        },
+        {
+          "slug": "14-xing-wei-shu",
+          "title": "行为树",
+          "file": "14-xing-wei-shu.md",
+          "section": "人工智能",
+          "level": "1"
+        },
+        {
+          "slug": "15-qun-ti-xing-wei",
+          "title": "群体行为",
+          "file": "15-qun-ti-xing-wei.md",
+          "section": "人工智能",
+          "level": "1"
+        },
+        {
+          "slug": "16-wang-luo-tong-xin",
+          "title": "网络通信",
+          "file": "16-wang-luo-tong-xin.md",
+          "section": "网络系统",
+          "level": "1"
+        },
+        {
+          "slug": "17-tong-bu-ji-zhi",
+          "title": "同步机制",
+          "file": "17-tong-bu-ji-zhi.md",
+          "section": "网络系统",
+          "level": "1"
+        },
+        {
+          "slug": "18-wang-luo-you-hua",
+          "title": "网络优化",
+          "file": "18-wang-luo-you-hua.md",
+          "section": "网络系统",
+          "level": "1"
+        },
+        {
+          "slug": "19-dan-yuan-ce-shi",
+          "title": "单元测试",
+          "file": "19-dan-yuan-ce-shi.md",
+          "section": "测试系统",
+          "level": "1"
+        },
+        {
+          "slug": "20-ji-cheng-ce-shi",
+          "title": "集成测试",
+          "file": "20-ji-cheng-ce-shi.md",
+          "section": "测试系统",
+          "level": "1"
+        },
+        {
+          "slug": "21-xing-neng-ce-shi",
+          "title": "性能测试",
+          "file": "21-xing-neng-ce-shi.md",
+          "section": "测试系统",
+          "level": "1"
+        },
+        {
+          "slug": "22-zhu-cai-dan",
+          "title": "主菜单",
+          "file": "22-zhu-cai-dan.md",
+          "section": "用户界面",
+          "level": "1"
+        },
+        {
+          "slug": "23-hudjie-mian",
+          "title": "HUD界面",
+          "file": "23-hudjie-mian.md",
+          "section": "用户界面",
+          "level": "1"
+        },
+        {
+          "slug": "24-she-zhi-jie-mian",
+          "title": "设置界面",
+          "file": "24-she-zhi-jie-mian.md",
+          "section": "用户界面",
+          "level": "1"
+        },
+        {
+          "slug": "25-yin-xiao-guan-li",
+          "title": "音效管理",
+          "file": "25-yin-xiao-guan-li.md",
+          "section": "音频系统",
+          "level": "1"
+        },
+        {
+          "slug": "26-bei-jing-yin-le",
+          "title": "背景音乐",
+          "file": "26-bei-jing-yin-le.md",
+          "section": "音频系统",
+          "level": "1"
+        },
+        {
+          "slug": "27-yin-pin-hun-he",
+          "title": "音频混合",
+          "file": "27-yin-pin-hun-he.md",
+          "section": "音频系统",
+          "level": "1"
+        },
+        {
+          "slug": "28-zhao-se-qi",
+          "title": "着色器",
+          "file": "28-zhao-se-qi.md",
+          "section": "渲染系统",
+          "level": "1"
+        },
+        {
+          "slug": "29-guang-zhao-yu-yin-ying",
+          "title": "光照与阴影",
+          "file": "29-guang-zhao-yu-yin-ying.md",
+          "section": "渲染系统",
+          "level": "1"
+        },
+        {
+          "slug": "30-hou-chu-li",
+          "title": "后处理",
+          "file": "30-hou-chu-li.md",
+          "section": "渲染系统",
+          "level": "1"
+        }
+      ],
+      "dataBase": "/hub-data/projects/p-58da75eb42d9"
+    },
+    {
+      "id": "p-342a8f497248",
+      "title": "Scripts",
+      "summary": "Local zread wiki project",
+      "rootPath": "C:\\temp\\TarkovUnity\\UnityTarkov\\UnityTarkov\\ExportedProject\\Assets\\Scripts",
+      "versionId": "2026-05-09-222010",
+      "generatedAt": "2026-05-09T14:20:10.2759556Z",
+      "language": "zh",
+      "pageCount": 28,
+      "tags": [
+        "入门指南",
+        "核心系统架构",
+        "用户界面系统",
+        "网络与同步架构",
+        "战斗与物理系统",
+        "高级主题"
+      ],
+      "pages": [
+        {
+          "slug": "1-xiang-mu-gai-lan-yu-he-xin-jie-zhi",
+          "title": "项目概览与核心价值",
+          "file": "1-xiang-mu-gai-lan-yu-he-xin-jie-zhi.md",
+          "section": "入门指南",
+          "level": "Beginner"
+        },
+        {
+          "slug": "2-kuai-su-kai-shi-xiang-mu-huan-jing-da-jian-yu-yun-xing",
+          "title": "快速开始:项目环境搭建与运行",
+          "file": "2-kuai-su-kai-shi-xiang-mu-huan-jing-da-jian-yu-yun-xing.md",
+          "section": "入门指南",
+          "level": "Beginner"
+        },
+        {
+          "slug": "3-fan-bian-yi-dai-ma-zhong-gou-fang-fa-lun",
+          "title": "反编译代码重构方法论",
+          "file": "3-fan-bian-yi-dai-ma-zhong-gou-fang-fa-lun.md",
+          "section": "入门指南",
+          "group": "重构工作流程",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "4-ming-ming-gui-fan-yu-dai-ma-zu-zhi-yuan-ze",
+          "title": "命名规范与代码组织原则",
+          "file": "4-ming-ming-gui-fan-yu-dai-ma-zu-zhi-yuan-ze.md",
+          "section": "入门指南",
+          "group": "重构工作流程",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "5-jian-jin-shi-zhong-gou-ce-lue-yu-shi-jian",
+          "title": "渐进式重构策略与实践",
+          "file": "5-jian-jin-shi-zhong-gou-ce-lue-yu-shi-jian.md",
+          "section": "入门指南",
+          "group": "重构工作流程",
+          "level": "Advanced"
+        },
+        {
+          "slug": "6-ying-yong-cheng-xu-sheng-ming-zhou-qi-guan-li",
+          "title": "应用程序生命周期管理",
+          "file": "6-ying-yong-cheng-xu-sheng-ming-zhou-qi-guan-li.md",
+          "section": "核心系统架构",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "7-you-xi-shi-jie-he-xin-guan-li-qi",
+          "title": "游戏世界核心管理器",
+          "file": "7-you-xi-shi-jie-he-xin-guan-li-qi.md",
+          "section": "核心系统架构",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "8-wan-jia-he-xin-lei-jia-gou",
+          "title": "玩家核心类架构",
+          "file": "8-wan-jia-he-xin-lei-jia-gou.md",
+          "section": "核心系统架构",
+          "group": "玩家系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "9-yi-dong-xi-tong-yu-wu-li-ji-suan",
+          "title": "移动系统与物理计算",
+          "file": "9-yi-dong-xi-tong-yu-wu-li-ji-suan.md",
+          "section": "核心系统架构",
+          "group": "玩家系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "10-shou-bu-kong-zhi-qi-yu-wu-qi-xi-tong-ji-cheng",
+          "title": "手部控制器与武器系统集成",
+          "file": "10-shou-bu-kong-zhi-qi-yu-wu-qi-xi-tong-ji-cheng.md",
+          "section": "核心系统架构",
+          "group": "玩家系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "11-wu-pin-ji-lei-yu-zu-jian-xi-tong",
+          "title": "物品基类与组件系统",
+          "file": "11-wu-pin-ji-lei-yu-zu-jian-xi-tong.md",
+          "section": "核心系统架构",
+          "group": "物品与背包系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "12-bei-bao-rong-qi-yu-wang-ge-bu-ju",
+          "title": "背包容器与网格布局",
+          "file": "12-bei-bao-rong-qi-yu-wang-ge-bu-ju.md",
+          "section": "核心系统架构",
+          "group": "物品与背包系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "13-wu-pin-cao-zuo-yu-jiao-yi-luo-ji",
+          "title": "物品操作与交易逻辑",
+          "file": "13-wu-pin-cao-zuo-yu-jiao-yi-luo-ji.md",
+          "section": "核心系统架构",
+          "group": "物品与背包系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "14-uikuang-jia-ji-chu-jia-gou",
+          "title": "UI框架基础架构",
+          "file": "14-uikuang-jia-ji-chu-jia-gou.md",
+          "section": "用户界面系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "15-tuo-fang-xi-tong-shi-xian",
+          "title": "拖放系统实现",
+          "file": "15-tuo-fang-xi-tong-shi-xian.md",
+          "section": "用户界面系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "16-bei-bao-jie-mian-yu-wu-pin-shi-tu",
+          "title": "背包界面与物品视图",
+          "file": "16-bei-bao-jie-mian-yu-wu-pin-shi-tu.md",
+          "section": "用户界面系统",
+          "group": "核心UI模块",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "17-jiao-yi-xi-tong-ui",
+          "title": "交易系统UI",
+          "file": "17-jiao-yi-xi-tong-ui.md",
+          "section": "用户界面系统",
+          "group": "核心UI模块",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "18-shi-chang-yu-fen-lei-liu-lan-mian-ban",
+          "title": "市场与分类浏览面板",
+          "file": "18-shi-chang-yu-fen-lei-liu-lan-mian-ban.md",
+          "section": "用户界面系统",
+          "group": "核心UI模块",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "19-wang-luo-you-xi-hui-hua-guan-li",
+          "title": "网络游戏会话管理",
+          "file": "19-wang-luo-you-xi-hui-hua-guan-li.md",
+          "section": "网络与同步架构",
+          "level": "Advanced"
+        },
+        {
+          "slug": "20-ke-hu-duan-fu-wu-qi-shu-ju-tong-bu",
+          "title": "客户端-服务器数据同步",
+          "file": "20-ke-hu-duan-fu-wu-qi-shu-ju-tong-bu.md",
+          "section": "网络与同步架构",
+          "level": "Advanced"
+        },
+        {
+          "slug": "21-zhuang-tai-yu-ce-yu-cha-zhi-suan-fa",
+          "title": "状态预测与插值算法",
+          "file": "21-zhuang-tai-yu-ce-yu-cha-zhi-suan-fa.md",
+          "section": "网络与同步架构",
+          "level": "Advanced"
+        },
+        {
+          "slug": "22-dan-dao-ji-suan-yu-shang-hai-xi-tong",
+          "title": "弹道计算与伤害系统",
+          "file": "22-dan-dao-ji-suan-yu-shang-hai-xi-tong.md",
+          "section": "战斗与物理系统",
+          "level": "Advanced"
+        },
+        {
+          "slug": "23-jian-kang-xi-tong-yu-zhuang-tai-xiao-guo",
+          "title": "健康系统与状态效果",
+          "file": "23-jian-kang-xi-tong-yu-zhuang-tai-xiao-guo.md",
+          "section": "战斗与物理系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "24-aiji-qi-ren-xing-wei-xi-tong",
+          "title": "AI机器人行为系统",
+          "file": "24-aiji-qi-ren-xing-wei-xi-tong.md",
+          "section": "战斗与物理系统",
+          "level": "Intermediate"
+        },
+        {
+          "slug": "25-xing-neng-you-hua-yu-zi-yuan-guan-li",
+          "title": "性能优化与资源管理",
+          "file": "25-xing-neng-you-hua-yu-zi-yuan-guan-li.md",
+          "section": "高级主题",
+          "level": "Advanced"
+        },
+        {
+          "slug": "26-yin-pin-xi-tong-yu-kong-jian-hua",
+          "title": "音频系统与空间化",
+          "file": "26-yin-pin-xi-tong-yu-kong-jian-hua.md",
+          "section": "高级主题",
+          "level": "Advanced"
+        },
+        {
+          "slug": "27-xuan-ran-te-xiao-yu-hou-chu-li",
+          "title": "渲染特效与后处理",
+          "file": "27-xuan-ran-te-xiao-yu-hou-chu-li.md",
+          "section": "高级主题",
+          "level": "Advanced"
+        },
+        {
+          "slug": "28-ren-wu-xi-tong-yu-cheng-jiu-xi-tong",
+          "title": "任务系统与成就系统",
+          "file": "28-ren-wu-xi-tong-yu-cheng-jiu-xi-tong.md",
+          "section": "高级主题",
+          "level": "Advanced"
+        }
+      ],
+      "dataBase": "/hub-data/projects/p-342a8f497248"
+    }
+  ]
+}
