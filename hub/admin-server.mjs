@@ -208,11 +208,54 @@ function buildSlugFromRelative(relPath) {
 }
 
 function extractTitleFromContent(content, fallbackName) {
-  const firstLine = content.split(/\r?\n/).find(l => l.trim());
-  if (firstLine && /^#{1,6}\s+/.test(firstLine)) {
-    return firstLine.replace(/^#{1,6}\s+/, '').trim();
+  const lines = content.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+  const headings = lines
+    .filter((line) => /^#{1,6}\s+/.test(line))
+    .map((line) => line.replace(/^#{1,6}\s+/, '').trim())
+    .filter(Boolean);
+
+  const genericTitle = (title) => /^sheet[:：]\s*目录$/i.test(title) || /^目录$/.test(title);
+  const firstMeaningful = headings.find((title) => !genericTitle(title));
+  if (firstMeaningful) return firstMeaningful;
+
+  if (headings[0] && !genericTitle(headings[0])) {
+    return headings[0];
   }
+
   return fallbackName.replace(/\.md$/i, '');
+}
+
+function normalizeTitleKey(value) {
+  return String(value || '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .trim();
+}
+
+function formatFileLabel(filePath) {
+  const base = path.basename(filePath || '', '.md');
+  return base.replace(/[_-]+/g, ' ').trim();
+}
+
+function disambiguatePlainPages(pages) {
+  const groups = new Map();
+  for (const page of pages) {
+    const sectionKey = String(page.section || '');
+    const groupKey = String(page.group || '');
+    const titleKey = normalizeTitleKey(page.title);
+    const key = `${sectionKey}::${groupKey}::${titleKey}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(page);
+  }
+
+  for (const [, list] of groups) {
+    if (list.length <= 1) continue;
+    for (const page of list) {
+      const label = formatFileLabel(page.file);
+      page.title = `${page.title}（${label}）`;
+    }
+  }
 }
 
 async function importPlainMarkdownDir(rootDir, projectRoot) {
@@ -224,8 +267,7 @@ async function importPlainMarkdownDir(rootDir, projectRoot) {
 
   const projectId = hashProjectId(path.resolve(rootDir));
   const destDir = path.join(PROJECTS_DIR, projectId);
-  const destPagesDir = path.join(destDir, 'pages');
-  await fs.mkdir(destPagesDir, { recursive: true });
+  await fs.mkdir(destDir, { recursive: true });
 
   const pages = [];
   const sections = new Set();
@@ -243,19 +285,17 @@ async function importPlainMarkdownDir(rootDir, projectRoot) {
     const section = relDir && relDir !== '.' ? relDir.replace(/\\/g, ' / ') : 'Root';
     sections.add(section);
 
-    const destFile = `${slug}.md`;
-    const dst = path.join(destPagesDir, destFile);
-    await fs.mkdir(path.dirname(dst), { recursive: true });
-    await fs.copyFile(file.fullPath, dst);
-
     pages.push({
       slug,
       title,
-      file: destFile,
+      file: relFile,
+      sourceFilePath: file.fullPath,
       section,
       level: '1'
     });
   }
+
+  disambiguatePlainPages(pages);
 
   const projectInfo = await extractProjectInfo(projectRoot);
   const entry = {
@@ -269,6 +309,8 @@ async function importPlainMarkdownDir(rootDir, projectRoot) {
     pageCount: pages.length,
     tags: Array.from(sections),
     pages,
+    sourceType: 'plain',
+    sourceBasePath: rootDir,
     dataBase: `/hub-data/projects/${projectId}`
   };
 
@@ -286,17 +328,13 @@ async function importPlainMarkdownFile(filePath, projectRoot) {
 
   const projectId = hashProjectId(absoluteFile);
   const destDir = path.join(PROJECTS_DIR, projectId);
-  const destPagesDir = path.join(destDir, 'pages');
-  await fs.mkdir(destPagesDir, { recursive: true });
+  await fs.mkdir(destDir, { recursive: true });
 
   const content = stripBom(await fs.readFile(absoluteFile, 'utf8'));
   const baseName = path.basename(absoluteFile);
   const title = extractTitleFromContent(content, baseName);
   const slug = buildSlugFromRelative(baseName) || 'index';
   const destFile = `${slug}.md`;
-  const dst = ensureInside(destPagesDir, path.join(destPagesDir, destFile), '目标文件');
-
-  await fs.copyFile(absoluteFile, dst);
 
   const projectInfo = await extractProjectInfo(projectRoot);
   const entry = {
@@ -314,10 +352,13 @@ async function importPlainMarkdownFile(filePath, projectRoot) {
         slug,
         title,
         file: destFile,
+        sourceFilePath: absoluteFile,
         section: 'Root',
         level: '1'
       }
     ],
+    sourceType: 'plain-file',
+    sourceBasePath: path.dirname(absoluteFile),
     dataBase: `/hub-data/projects/${projectId}`
   };
 
@@ -335,19 +376,15 @@ async function importZreadWiki(versionPath, projectRoot) {
   const wiki = await readJson(wikiJsonPath);
   const projectId = hashProjectId(path.resolve(projectRoot));
   const destinationProjectDir = path.join(PROJECTS_DIR, projectId);
-  const destinationPagesDir = path.join(destinationProjectDir, 'pages');
-  await fs.mkdir(destinationPagesDir, { recursive: true });
-
-  for (const page of wiki.pages || []) {
-    if (!page.file) continue;
-    const src = ensureInside(versionPath, path.join(versionPath, page.file), '源文件');
-    const dst = ensureInside(destinationPagesDir, path.join(destinationPagesDir, page.file), '目标文件');
-    if (!(await pathExists(src))) continue;
-    await fs.mkdir(path.dirname(dst), { recursive: true });
-    await fs.copyFile(src, dst);
-  }
+  await fs.mkdir(destinationProjectDir, { recursive: true });
 
   const projectInfo = await extractProjectInfo(projectRoot);
+  const pages = (wiki.pages || []).map((page) => {
+    if (!page?.file) return page;
+    const src = ensureInside(versionPath, path.join(versionPath, page.file), '源文件');
+    return { ...page, sourceFilePath: src };
+  });
+
   const entry = {
     id: projectId,
     title: projectInfo.title,
@@ -356,15 +393,75 @@ async function importZreadWiki(versionPath, projectRoot) {
     versionId: wiki.id || null,
     generatedAt: wiki.generated_at || null,
     language: wiki.language || null,
-    pageCount: Array.isArray(wiki.pages) ? wiki.pages.length : 0,
-    tags: Array.from(new Set((wiki.pages || []).map((page) => page.section).filter(Boolean))),
-    pages: wiki.pages || [],
+    pageCount: Array.isArray(pages) ? pages.length : 0,
+    tags: Array.from(new Set((pages || []).map((page) => page.section).filter(Boolean))),
+    pages,
+    sourceType: 'zread',
+    sourceBasePath: versionPath,
     dataBase: `/hub-data/projects/${projectId}`
   };
 
   await writeJson(path.join(destinationProjectDir, 'wiki.json'), entry);
   await upsertCatalog(entry);
   return entry;
+}
+
+async function loadCatalog() {
+  if (!(await pathExists(CATALOG_PATH))) {
+    return { generatedAt: new Date().toISOString(), totalProjects: 0, projects: [] };
+  }
+  return readJson(CATALOG_PATH);
+}
+
+async function resolveSourceFileFromProjectPage(project, page) {
+  if (page?.sourceFilePath) return page.sourceFilePath;
+
+  if (project?.sourceBasePath && page?.file) {
+    return ensureInside(project.sourceBasePath, path.join(project.sourceBasePath, page.file), '源文件');
+  }
+
+  if (project?.rootPath && page?.file) {
+    // Reconstruct zread source path from rootPath + versionId/current, so hub-data/projects cache is optional.
+    const wikiRoot = path.join(project.rootPath, '.zread', 'wiki');
+    if (await pathExists(wikiRoot)) {
+      let versionDir = '';
+
+      if (project.versionId) {
+        const directVersion = path.join(wikiRoot, 'versions', String(project.versionId));
+        if (await pathExists(directVersion)) {
+          versionDir = directVersion;
+        }
+      }
+
+      if (!versionDir) {
+        const currentFile = path.join(wikiRoot, 'current');
+        if (await pathExists(currentFile)) {
+          const pointer = stripBom(await fs.readFile(currentFile, 'utf8')).trim();
+          const resolved = path.resolve(path.join(wikiRoot, pointer));
+          if (await pathExists(resolved)) {
+            versionDir = resolved;
+          }
+        }
+      }
+
+      if (versionDir) {
+        return ensureInside(versionDir, path.join(versionDir, page.file), '推导源文件');
+      }
+    }
+
+    // Plain markdown project fallback: treat page.file as path relative to project root.
+    const plainCandidate = path.resolve(path.join(project.rootPath, page.file));
+    if (await pathExists(plainCandidate)) {
+      return ensureInside(project.rootPath, plainCandidate, '普通项目源文件');
+    }
+  }
+
+  if (project?.dataBase && page?.file) {
+    const legacyProjectDir = path.join(ROOT, project.dataBase.replace(/^\//, ''));
+    return ensureInside(path.join(legacyProjectDir, 'pages'), path.join(legacyProjectDir, 'pages', page.file), '旧缓存文件');
+  }
+
+  throw new Error('无法定位页面源文件');
 }
 
 async function upsertCatalog(entry) {
@@ -436,6 +533,43 @@ const server = http.createServer(async (req, res) => {
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
     res.writeHead(200);
     res.end(JSON.stringify({ ok: true }));
+    return;
+  }
+
+  if (req.method === 'GET' && req.url?.startsWith('/page-content?')) {
+    try {
+      const requestUrl = new URL(req.url, 'http://127.0.0.1:4174');
+      const projectId = requestUrl.searchParams.get('projectId') || '';
+      const slug = requestUrl.searchParams.get('slug') || '';
+      if (!projectId || !slug) {
+        res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('projectId and slug are required');
+        return;
+      }
+
+      const catalog = await loadCatalog();
+      const project = (catalog.projects || []).find((p) => p.id === projectId);
+      if (!project) {
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('project not found');
+        return;
+      }
+
+      const page = (project.pages || []).find((p) => p.slug === slug);
+      if (!page) {
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('page not found');
+        return;
+      }
+
+      const sourcePath = await resolveSourceFileFromProjectPage(project, page);
+      const content = stripBom(await fs.readFile(sourcePath, 'utf8'));
+      res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+      res.end(JSON.stringify({ ok: true, content, sourcePath }));
+    } catch (error) {
+      res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
+      res.end(error instanceof Error ? error.message : 'load page failed');
+    }
     return;
   }
 

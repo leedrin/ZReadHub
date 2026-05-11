@@ -474,9 +474,22 @@ async function loadPageContent(project, slug) {
   if (state.pageCache.has(key)) return state.pageCache.get(key);
   const page = project.pages.find(p => p.slug === slug);
   if (!page) return '# Not Found\n\nPage missing.';
-  const path = `${project.dataBase}/pages/${page.file}`;
-  const res = await fetch(path, { cache: 'no-store' });
-  const txt = await res.text();
+  try {
+    const url = `${adminApiConfig.baseUrl}/page-content?projectId=${encodeURIComponent(project.id)}&slug=${encodeURIComponent(slug)}`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (res.ok) {
+      const data = await res.json();
+      const txt = String(data?.content || '');
+      state.pageCache.set(key, txt);
+      return txt;
+    }
+  } catch {
+    // fallback below
+  }
+
+  const legacyPath = `${project.dataBase}/pages/${page.file}`;
+  const legacyRes = await fetch(legacyPath, { cache: 'no-store' });
+  const txt = await legacyRes.text();
   state.pageCache.set(key, txt);
   return txt;
 }
@@ -501,10 +514,56 @@ function renderExternalReader(main, entryUrl) {
 
 function buildProjectToc(project) {
   const pages = project.pages || [];
+  const canonicalTitle = (title) => String(title || '')
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/[()（）\[\]【】|｜:：\-—_]/g, '')
+    .replace(/v\d+(\.\d+)?$/g, '')
+    .replace(/(标注版|思维导图|脑图|流程图|草案|draft|final|最终版)$/g, '');
+
+  const pageScore = (page) => {
+    const t = String(page?.title || '');
+    let score = t.length;
+    if (/标注版|思维导图|脑图|流程图|草案|draft|final|最终版/i.test(t)) score += 1000;
+    if (/v\d+(\.\d+)?/i.test(t)) score += 100;
+    return score;
+  };
+
+  const uniquePages = [];
+  const seenSlug = new Set();
+  const seenFile = new Set();
+  const seenTitleKeyToIndex = new Map();
+
+  for (const page of pages) {
+    const slugKey = String(page?.slug || '').trim();
+    const fileKey = String(page?.file || '').trim().toLowerCase();
+    const titleKey = canonicalTitle(page?.title);
+    if (slugKey && seenSlug.has(slugKey)) continue;
+    if (fileKey && seenFile.has(fileKey)) continue;
+
+    if (titleKey) {
+      const existingIndex = seenTitleKeyToIndex.get(titleKey);
+      if (existingIndex !== undefined) {
+        const existingPage = uniquePages[existingIndex];
+        if (pageScore(page) < pageScore(existingPage)) {
+          uniquePages[existingIndex] = page;
+          if (slugKey) seenSlug.add(slugKey);
+          if (fileKey) seenFile.add(fileKey);
+        }
+        continue;
+      }
+    }
+
+    if (slugKey) seenSlug.add(slugKey);
+    if (fileKey) seenFile.add(fileKey);
+    uniquePages.push(page);
+    if (titleKey) seenTitleKeyToIndex.set(titleKey, uniquePages.length - 1);
+  }
+
   const sections = new Map();
   const sectionOrder = [];
 
-  for (const page of pages) {
+  for (const page of uniquePages) {
     const section = page.section || 'Default';
     if (!sections.has(section)) {
       sections.set(section, { groups: new Map(), groupOrder: [] });
@@ -612,7 +671,14 @@ function readHash() {
   if (!hash) return;
   const [pid, ...slugParts] = hash.split('/');
   if (pid) state.activeProjectId = pid;
-  if (slugParts.length) state.activeSlug = slugParts.join('/');
+  if (slugParts.length) {
+    const rawSlug = slugParts.join('/');
+    try {
+      state.activeSlug = decodeURIComponent(rawSlug);
+    } catch {
+      state.activeSlug = rawSlug;
+    }
+  }
 }
 
 async function render(app) {
